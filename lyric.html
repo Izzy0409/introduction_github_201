@@ -1,16 +1,20 @@
 <html>
     <head>
         <title>Lullaby Song</title>
+        
+        <!--INTERNAL JAVASCRIPT-->
+        <script>
+        </script>
 </head>
 <body style="text-align: center;">
         <h1>Twinkle Twinkle Little Star</h1>
     
         <img src="twinkle_little_star.jpg" alt= "lyric image"/>
         <div>
-            <p>Twinkle Twinkle, Little Star</p>
-            <p>How I wonder what you are</p>
-            <p>Up above the world so high</p>
-            <p>Like a diamond in the sky</p>
+            <p id="demo"onclick="document.getElementById('demo').innerHTML= 'The little stars are twinkle'">Twinkle Twinkle, Little Star</p>
+            <p id="color"ondblclick="document.getElementById('color').style.backgroundColor='red'">How I wonder what you are</p>
+            <p id="mouseover"onmouseover="document.getElementById('mouseover').style.fontSize='60px'">Up above the world so high</p>
+            <p id="mouseout"onmouseout="document.getElementById('mouseout').style.color='blue'">Like a diamond in the sky</p>
             <p>Twinkle Twinkle Little Star</p>
             <p>How I wonder what you are!</p>
         </div>
